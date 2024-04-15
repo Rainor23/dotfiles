@@ -202,7 +202,7 @@ bindsym Mod1+space exec rofi -show drun
 #bar {
 #        status_command i3status
 #}
-exec source .zshrc && export PATH="$PATH:/home/rainer/.local/bin/"
+exec source .zshrc && export PATH="$PATH:$HOME/.local/bin/"
 
 assign [class="firefox-esr"] 2 
 gaps inner 10
