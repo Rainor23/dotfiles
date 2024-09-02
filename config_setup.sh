@@ -74,7 +74,6 @@ else
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" >/dev/null 2>&1
 fi
 
-exit
 echo -e "\n- Installing zsh-autosuggestions"
 if [ -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then
     echo zsh-autosuggestions is already installed
